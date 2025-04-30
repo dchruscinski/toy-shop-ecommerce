@@ -91,7 +91,7 @@ target/
 /frontend/.history/*
 
 # Miscellaneous
-/frontend/.angular/cache
+**/.angular/cache
 /frontend/.sass-cache/
 /frontend/connect.lock
 /frontend/coverage
