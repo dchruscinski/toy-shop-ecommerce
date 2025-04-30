@@ -1,2 +1,100 @@
-# Project exclude paths
-/backend/target/
+# === GLOBAL IGNORE ===
+node_modules/
+dist/
+.env
+.DS_Store
+Thumbs.db
+target/
+
+### BACKEND ###
+
+# IDE
+/backend/.idea/
+/backend/*.iml
+/backend/*.ipr
+
+# CMake
+/backend/cmake-build-*/
+
+# File-based project format
+/backend/*.iws
+
+# IntelliJ
+/backend/out/
+
+# mpeltonen/sbt-idea plugin
+/backend/.idea_modules/
+
+# JIRA plugin
+/backend/atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+/backend/com_crashlytics_export_strings.xml
+/backend/crashlytics.properties
+/backend/crashlytics-build.properties
+/backend/fabric.properties
+
+### Java ###
+# Compiled class file
+/backend/*.class
+
+# Log file
+/backend/*.log
+
+# BlueJ files
+/backend/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+/backend/.mtj.tmp/
+
+# Package Files #
+/backend/*.jar
+/backend/*.war
+/backend/*.nar
+/backend/*.ear
+/backend/*.zip
+/backend/*.tar.gz
+/backend/*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+/backend/hs_err_pid*
+/backend/replay_pid*
+
+### FRONTEND ###
+
+# Compiled output
+/frontend/dist
+/frontend/tmp
+/frontend/out-tsc
+/frontend/bazel-out
+
+# Node
+/frontend/node_modules
+/frontend/npm-debug.log*
+/frontend/yarn-error.log*
+
+# IDEs and editors
+/frontend/.idea/
+/frontend/.project
+/frontend/.classpath
+/frontend/.c9/
+/frontend/*.launch
+/frontend/.settings/
+/frontend/*.sublime-workspace
+
+# Visual Studio Code
+/frontend/.vscode/*
+!/frontend/.vscode/settings.json
+!/frontend/.vscode/tasks.json
+!/frontend/.vscode/launch.json
+!/frontend/.vscode/extensions.json
+/frontend/.history/*
+
+# Miscellaneous
+/frontend/.angular/cache
+/frontend/.sass-cache/
+/frontend/connect.lock
+/frontend/coverage
+/frontend/libpeerconnection.log
+/frontend/testem.log
+/frontend/typings
